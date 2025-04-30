@@ -42,9 +42,9 @@ export default {
   setup() {
     const newTodo = ref('')
     const todos = ref([
-      { id: 1, text: 'Learn Vue.js', completed: false },
-      { id: 2, text: 'Build something awesome', completed: false },
-      { id: 3, text: 'Complete the assignment', completed: true }
+      { id: 1, text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', completed: false },
+      { id: 2, text: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.', completed: false },
+      { id: 3, text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC', completed: true }
     ])
 
     const pendingTodos = computed(() =>
